@@ -1,0 +1,75 @@
+/* [project]/src/app/components/ui/style/BlendedGrid.css [app-client] (css) */
+.blended_grid {
+  width: 100%;
+  margin: 100px auto 0;
+  display: block;
+  overflow: auto;
+}
+
+.topBanner {
+  float: left;
+  clear: none;
+  background-color: #ffffff80;
+  width: 1050px;
+  height: 200px;
+}
+
+.middleBanner {
+  float: left;
+  clear: none;
+  background-color: #ffffff80;
+  width: 1050px;
+  height: 450px;
+}
+
+.leftBanner, .centerBanner, .rightBanner {
+  float: left;
+  clear: none;
+  background-color: #ffffff80;
+  width: 350px;
+  height: 350px;
+}
+
+.bottomBanner {
+  float: left;
+  clear: none;
+  background-color: #ffffff80;
+  width: 1050px;
+  height: 100px;
+}
+
+.button-container {
+  background-color: #000;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+  width: 250px;
+  height: 40px;
+  display: flex;
+}
+
+.button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0000;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  transition: all .3s ease-in-out;
+  display: flex;
+  border: 0 !important;
+  outline: 0 !important;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+}
+
+.icon {
+  font-size: 20px;
+}
+
+
+/*# sourceMappingURL=src_app_components_ui_style_BlendedGrid_1849decc.css.map*/

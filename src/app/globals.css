@@ -1,9 +1,20 @@
+@import '@fontsource/bebas-neue';
+
+
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-bebas: "Bebas Neue", sans-serif;
 }
+
+.bebas-neue-regular {
+  font-family: var(--font-bebas);
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 @theme inline {
   --color-background: var(--background);
@@ -19,8 +30,22 @@
   }
 }
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: #212121; */
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
 }
+
+.items-center
+{
+  align-items: normal !important;
+}
+
