@@ -1,0 +1,60 @@
+/* [project]/src/app/components/ui/style/BlendedGrid.module.css [app-client] (css) */
+.BlendedGrid-module__7KNdZG__blended_grid {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+.BlendedGrid-module__7KNdZG__topBanner, .BlendedGrid-module__7KNdZG__middleBanner, .BlendedGrid-module__7KNdZG__leftBanner, .BlendedGrid-module__7KNdZG__centerBanner, .BlendedGrid-module__7KNdZG__rightBanner, .BlendedGrid-module__7KNdZG__bottomBanner {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.BlendedGrid-module__7KNdZG__topBanner {
+  clear: none;
+  align-items: center;
+  max-width: 850px;
+}
+
+.BlendedGrid-module__7KNdZG__middleBanner, .BlendedGrid-module__7KNdZG__leftBanner, .BlendedGrid-module__7KNdZG__centerBanner, .BlendedGrid-module__7KNdZG__rightBanner, .BlendedGrid-module__7KNdZG__bottomBanner {
+  clear: none;
+}
+
+.BlendedGrid-module__7KNdZG__buttonContainer {
+  backdrop-filter: blur(5px);
+  background: #c8c8c833;
+  border: 1px solid #ffffff1a;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  display: flex;
+  box-shadow: 0 4px 6px -1px #0000001a, 0 2px 4px -1px #0000000f;
+}
+
+.BlendedGrid-module__7KNdZG__button {
+  color: #000;
+  cursor: pointer;
+  background-color: #0000;
+  border-radius: 50%;
+  width: 40px;
+  height: 55px;
+  transition: all .3s ease-in-out;
+}
+
+.BlendedGrid-module__7KNdZG__button > p {
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.BlendedGrid-module__7KNdZG__button:hover {
+  transform: translateY(-3px);
+}
+
+.BlendedGrid-module__7KNdZG__icon {
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=src_app_components_ui_style_BlendedGrid_module_css_f9ee138c._.single.css.map*/

@@ -1,3 +1,6 @@
+'use client';
+
+import { LoadingWrapper } from './components/LoadingWrapper';
 
 import { 
   NewsLetter
@@ -14,6 +17,7 @@ import {
 
 export default function Home() {
   return (
+    <LoadingWrapper delay={3000}>
     <BlendedGrid>
       <TopBanner>
         {/* <h1>Top Page</h1> */}
@@ -39,5 +43,7 @@ export default function Home() {
         <footer>Footer Content</footer>
       </BottomBanner>
     </BlendedGrid>
+    </LoadingWrapper>
+
   );
 }

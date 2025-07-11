@@ -1,0 +1,209 @@
+/* [project]/src/app/components/loader/Loader.module.css [app-client] (css) */
+.Loader-module__dnKA5W__loaderContainer {
+  z-index: 50;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  inset: 0;
+}
+
+.Loader-module__dnKA5W__wifiLoader {
+  --background: #62abff;
+  --front-color: #6c2526;
+  --back-color: #c3c8de;
+  --text-color: #f3f4f6;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  position: relative;
+}
+
+.Loader-module__dnKA5W__wifiLoader svg {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+}
+
+.Loader-module__dnKA5W__wifiLoader svg circle {
+  fill: none;
+  stroke-width: 6px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transform-origin: center;
+  position: absolute;
+  transform: rotate(-100deg);
+}
+
+.Loader-module__dnKA5W__wifiLoader svg circle.Loader-module__dnKA5W__back {
+  stroke: var(--back-color);
+}
+
+.Loader-module__dnKA5W__wifiLoader svg circle.Loader-module__dnKA5W__front {
+  stroke: var(--front-color);
+}
+
+.Loader-module__dnKA5W__wifiLoader svg.Loader-module__dnKA5W__circleOuter {
+  width: 86px;
+  height: 86px;
+}
+
+.Loader-module__dnKA5W__wifiLoader svg.Loader-module__dnKA5W__circleOuter circle {
+  stroke-dasharray: 62.75 188.25;
+}
+
+.Loader-module__dnKA5W__wifiLoader svg.Loader-module__dnKA5W__circleOuter circle.Loader-module__dnKA5W__back {
+  animation: 1.8s .3s infinite Loader-module__dnKA5W__circle-outer135;
+}
+
+.Loader-module__dnKA5W__wifiLoader svg.Loader-module__dnKA5W__circleOuter circle.Loader-module__dnKA5W__front {
+  animation: 1.8s .15s infinite Loader-module__dnKA5W__circle-outer135;
+}
+
+.Loader-module__dnKA5W__wifiLoader svg.Loader-module__dnKA5W__circleMiddle {
+  width: 60px;
+  height: 60px;
+}
+
+.Loader-module__dnKA5W__wifiLoader svg.Loader-module__dnKA5W__circleMiddle circle {
+  stroke-dasharray: 42.5 127.5;
+}
+
+.Loader-module__dnKA5W__wifiLoader svg.Loader-module__dnKA5W__circleMiddle circle.Loader-module__dnKA5W__back {
+  animation: 1.8s .25s infinite Loader-module__dnKA5W__circle-middle6123;
+}
+
+.Loader-module__dnKA5W__wifiLoader svg.Loader-module__dnKA5W__circleMiddle circle.Loader-module__dnKA5W__front {
+  animation: 1.8s .1s infinite Loader-module__dnKA5W__circle-middle6123;
+}
+
+.Loader-module__dnKA5W__wifiLoader svg.Loader-module__dnKA5W__circleInner {
+  width: 34px;
+  height: 34px;
+}
+
+.Loader-module__dnKA5W__wifiLoader svg.Loader-module__dnKA5W__circleInner circle {
+  stroke-dasharray: 22 66;
+}
+
+.Loader-module__dnKA5W__wifiLoader svg.Loader-module__dnKA5W__circleInner circle.Loader-module__dnKA5W__back {
+  animation: 1.8s .2s infinite Loader-module__dnKA5W__circle-inner162;
+}
+
+.Loader-module__dnKA5W__wifiLoader svg.Loader-module__dnKA5W__circleInner circle.Loader-module__dnKA5W__front {
+  animation: 1.8s 50ms infinite Loader-module__dnKA5W__circle-inner162;
+}
+
+.Loader-module__dnKA5W__wifiLoader .Loader-module__dnKA5W__text {
+  text-transform: lowercase;
+  letter-spacing: .2px;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  position: absolute;
+  bottom: -40px;
+}
+
+.Loader-module__dnKA5W__wifiLoader .Loader-module__dnKA5W__text:before, .Loader-module__dnKA5W__wifiLoader .Loader-module__dnKA5W__text:after {
+  content: attr(data-text);
+}
+
+.Loader-module__dnKA5W__wifiLoader .Loader-module__dnKA5W__text:before {
+  color: var(--text-color);
+}
+
+.Loader-module__dnKA5W__wifiLoader .Loader-module__dnKA5W__text:after {
+  color: var(--front-color);
+  animation: 3.6s infinite Loader-module__dnKA5W__text-animation76;
+  position: absolute;
+  left: 0;
+}
+
+@keyframes Loader-module__dnKA5W__circle-outer135 {
+  0% {
+    stroke-dashoffset: 25px;
+  }
+
+  25% {
+    stroke-dashoffset: 0;
+  }
+
+  65% {
+    stroke-dashoffset: 301px;
+  }
+
+  80% {
+    stroke-dashoffset: 276px;
+  }
+
+  100% {
+    stroke-dashoffset: 276px;
+  }
+}
+
+@keyframes Loader-module__dnKA5W__circle-middle6123 {
+  0% {
+    stroke-dashoffset: 17px;
+  }
+
+  25% {
+    stroke-dashoffset: 0;
+  }
+
+  65% {
+    stroke-dashoffset: 204px;
+  }
+
+  80% {
+    stroke-dashoffset: 187px;
+  }
+
+  100% {
+    stroke-dashoffset: 187px;
+  }
+}
+
+@keyframes Loader-module__dnKA5W__circle-inner162 {
+  0% {
+    stroke-dashoffset: 9px;
+  }
+
+  25% {
+    stroke-dashoffset: 0;
+  }
+
+  65% {
+    stroke-dashoffset: 106px;
+  }
+
+  80% {
+    stroke-dashoffset: 97px;
+  }
+
+  100% {
+    stroke-dashoffset: 97px;
+  }
+}
+
+@keyframes Loader-module__dnKA5W__text-animation76 {
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+
+  50% {
+    clip-path: inset(0);
+  }
+
+  100% {
+    clip-path: inset(0 0 0 100%);
+  }
+}
+
+/*# sourceMappingURL=src_app_components_loader_Loader_module_css_f9ee138c._.single.css.map*/
